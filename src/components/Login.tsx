@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { supabase } from '../lib/supabase';
 import { useAuth } from '../hooks/useAuth';
 import { Shield, Eye, EyeOff, AlertCircle } from 'lucide-react';
 
